@@ -1,5 +1,3 @@
-import pytest
-
 from .code import increment, show_all_smaller_odd_positive_numbers
 
 
