@@ -14,4 +14,5 @@ def test_the_other_function():
 
 
 def test_the_other_function_but_failed():
-    assert show_all_smaller_odd_positive_numbers(11) == [1, 3, 5, 7, 9, 11]
+    assert show_all_smaller_odd_positive_numbers(20) == \
+        [1, 3, 5, 7, 9, 11, 13, 14, 15, 17, 19, 21]
